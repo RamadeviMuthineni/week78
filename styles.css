@@ -1,0 +1,45 @@
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: grey;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styling the Author column */
+.author {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1E90FF; /* Blue color */
+}
+
+/* Styling the other columns */
+td:nth-child(1) {
+    background-color: #F0F8FF; /* Light blue */
+}
+
+td:nth-child(3) {
+    background-color: #FFFAF0; /* Ivory */
+}
+
+td:nth-child(4) {
+    background-color: #F5FFFA; /* Honeydew */
+}
+
+td:nth-child(5) {
+    background-color: #FFF0F5; /* Lavender blush */
+}
+
+td:nth-child(6) {
+    background-color: #FFE4B5; /* Moccasin */
+}
